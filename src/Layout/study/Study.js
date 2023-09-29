@@ -76,19 +76,15 @@ if (deckLength < 3) {
     return (
       <div>
         <BreadCrumb deck={deck}/>
-        <div className="card">
-          <div className="card-body">
-            <h1>Study: {deck.name}</h1>
-            <StudyCard 
-                deck={deck} 
-                card={card}
-                cardNumber={cardNumber}
-                deckLength={deckLength} 
-                isFlipped={!isFlipped} 
-                handleFlip={handleFlip}
-                handleNextCard={handleNextCard}/>
-          </div>  
-        </div>
+        <h1>Study: {deck.name}</h1>
+          <StudyCard 
+              deck={deck} 
+              card={card}
+              cardNumber={cardNumber}
+              deckLength={deckLength} 
+              isFlipped={!isFlipped} 
+              handleFlip={handleFlip}
+              handleNextCard={handleNextCard}/>
       </div>
     )
     
