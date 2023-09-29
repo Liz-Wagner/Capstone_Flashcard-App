@@ -81,10 +81,6 @@ textarea {
   backface-visibility: hidden; /* Hide the back face until it's rotated */
 }
 
-.flip-card-front {
-  /* Styles for the front face */
-}
-
 .flip-card-back {
   transform: rotateY(180deg); /* Initially hide the back face */
   /* Styles for the back face */
